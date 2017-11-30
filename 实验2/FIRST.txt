@@ -1,0 +1,61 @@
+program
+INT STR VOID
+
+external_declaration
+INT STR VOID
+
+decl_or_stmt
+'{' ',' ';'
+
+declarator_list
+ID
+
+intstr_list
+NUMBER STRING
+    
+initializer
+NUMBER STRING
+   
+declarator
+ID
+
+parameter_list
+INT STR VOID
+
+parameter
+INT STR VOID
+
+type
+INT STR VOID
+
+statement
+INT STR VOID '{' ';' '-' '(' ID NUMBER STRING IF WHILE RETURN PRINT SCAN
+
+statement_list
+INT STR VOID '{' ';' '-' '(' ID NUMBER STRING
+
+expression_statement
+';' '-' '(' ID NUMBER STRING
+
+expr
+'-' '(' ID NUMBER STRING
+
+cmp_expr
+'-' '(' ID NUMBER STRING
+
+add_expr
+'-' '(' ID NUMBER STRING
+
+mul_expr
+'-' '(' ID NUMBER STRING
+
+primary_expr
+'(' ID NUMBER STRING
+
+expr_list
+'-' '(' ID NUMBER STRING
+
+id_list
+ID
+
+
